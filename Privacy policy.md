@@ -1,12 +1,7 @@
-SVIE: Privacy policy
-Welcome to Sea Valley Interactive Entertainment
+This is an app developed for internal company use
 
-This is an Android app developed by Lucas Sjodahl and is exclusively available on Google Play.
+Privacy is handled with greatest caution and the application is set to not collect any excessive personal identifiable information.
 
-Privacy is handled with greatest caution and the application is programmed to not collect any personal identifiable information. Data collected is only the coordinates of the phone which is used to get the appropiate weather for the users current location. The location is not used when the app is not running. The location is not stored anywere, neither local or external. 
+Data collected is the coordinates of the phone which is used to fetch nearby addresses to the installation’s location. The location is not used when the app is not running. The location is encrypted and stored locally on the device, it is sent to servers via encrypted channels, but not saved on servers. The camera is used when the user wants to add photos of installations, and the used SDK demands microphone access in order to start the camera, but no sound is recorded or saved. Pictures are saved on the device and sent to servers via encrypted channels and saved on company private servers.
 
-If any security vulnerability that has been inadvertently caused is detected by you as a user, or have any question regarding privacy in the app, please send an email.
-
-Yours sincerely,
-Lucas Sjodahl
-lucas.sjodahl@gmail.com
+Login is done via Microsoft and the application does not handle any passwords or login information. The email is part of a token which is cached during runtime, and sent to servers where the email is extracted and saved on the server as an identification method to see which user uploaded data.
